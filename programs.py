@@ -281,7 +281,8 @@ for i in range(0,13):
     n1 = n2
     n2 = temp
 
-    # or   
+    # or  
+
 num = 5
 n1 = 0
 n2 = 1
@@ -292,9 +293,8 @@ for i in range(2,num):
     n1 = n2
     n2 = n3
     print(n3)
-
-
-# Sum of non-primes in given number
+    
+      # or
 
 def check_prime(num):
     if num <= 1:
@@ -303,7 +303,13 @@ def check_prime(num):
         if num % i == 0:
             return False
     return True
+if check_prime(8):
+    print("prime")
+else:
+    print("not prime")
 
+
+# Sum of non-primes in given number
 num1 = int(input())
 temp = num1
 sum = 0
